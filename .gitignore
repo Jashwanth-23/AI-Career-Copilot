@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Environment & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build Outputs
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs & Temporary Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+uploads/*
+!uploads/README.md
+
+# Database & Migrations local files
+*.sqlite
+*.sqlite3
+# User-uploaded resumes
+backend/uploads/*
+!backend/uploads/README.md
