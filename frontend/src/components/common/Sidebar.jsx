@@ -9,6 +9,7 @@ import {
   RoadmapIcon,
   BriefcaseIcon,
   SparklesIcon,
+  MicrophoneIcon,
 } from "./Icons";
 
 const navItems = [
@@ -20,6 +21,7 @@ const navItems = [
   { name: "Skill Gap", path: "/skill-gap", icon: TargetIcon },
   { name: "Learning Roadmap", path: "/roadmap", icon: RoadmapIcon },
   { name: "Job Recommendations", path: "/jobs", icon: BriefcaseIcon },
+  { name: "🎤 AI Mock Interview", path: "/mock-interview", icon: MicrophoneIcon },
 ];
 
 const Sidebar = ({ isOpen, onClose }) => {

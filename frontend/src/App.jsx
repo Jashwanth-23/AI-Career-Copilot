@@ -20,6 +20,7 @@ import AtsScorePage from "./pages/AtsScorePage";
 import SkillGapPage from "./pages/SkillGapPage";
 import LearningRoadmapPage from "./pages/LearningRoadmapPage";
 import JobRecommendationsPage from "./pages/JobRecommendationsPage";
+import MockInterviewPage from "./pages/MockInterviewPage";
 import NotFoundPage from "./pages/NotFoundPage";
 
 // Protected Route Guard Component
@@ -97,6 +98,7 @@ function App() {
                   <Route path="/skill-gap" element={<SkillGapPage />} />
                   <Route path="/roadmap" element={<LearningRoadmapPage />} />
                   <Route path="/jobs" element={<JobRecommendationsPage />} />
+                  <Route path="/mock-interview" element={<MockInterviewPage />} />
                 </Route>
 
                 {/* Catch All 404 */}

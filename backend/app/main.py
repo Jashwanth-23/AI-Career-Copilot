@@ -15,6 +15,7 @@ from app.api.ats import router as ats_router
 from app.api.auth import router as auth_router
 from app.api.job_recommendation import router as job_recommendation_router
 from app.api.learning_roadmap import router as learning_roadmap_router
+from app.api.mock_interview import router as mock_interview_router
 from app.api.parser import router as parser_router
 from app.api.resume import router as resume_router
 from app.api.resume_analysis import router as resume_analysis_router
@@ -51,6 +52,7 @@ app.include_router(ats_router, prefix=settings.API_V1_STR)
 app.include_router(skill_gap_router, prefix=settings.API_V1_STR)
 app.include_router(learning_roadmap_router, prefix=settings.API_V1_STR)
 app.include_router(job_recommendation_router, prefix=settings.API_V1_STR)
+app.include_router(mock_interview_router, prefix=settings.API_V1_STR)
 
 
 @app.get("/", tags=["Root"])
